@@ -33,11 +33,13 @@ A simple Todo application built with Django, allowing users to create, update, d
 
 ## Screenshots
 
-![image](https://github.com/user-attachments/assets/d2f8c882-02b6-4454-8b2f-08706c61520c)
+![image](https://github.com/user-attachments/assets/ffda33c3-e905-422f-9b73-017513b86c3b)
 
-![image](https://github.com/user-attachments/assets/51436093-bf5c-4fad-9398-a535b599c017)
+![image](https://github.com/user-attachments/assets/61b99344-4de1-495e-a9c2-d6a65808317c)
 
-![image](https://github.com/user-attachments/assets/e7069f88-e304-477e-b0dc-7e523a428e2d)
+![image](https://github.com/user-attachments/assets/8712a597-c093-4624-bc6d-ce9b5a249bbb)
+
+
 
 
 
