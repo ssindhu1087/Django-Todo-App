@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Font Awesome 5 Brands:wght@400&display=swap" />
+    {% comment %} <script src="https://kit.fontawesome.com/cb792c0850.js" crossorigin="anonymous"></script> {% endcomment %}
+</head> 
+<body>
+    <div class="signup-login">
+        <div class="signup-box">
+            <form method="post">
+                {% csrf_token %}
+                <div class="heading" style="font-size: 38px; font-weight: 600;">SIGN UP</div>
+                <div class="line"></div>
+                <div class="field">
+                    <b>Username</b>
+                    <input type="text" class="inp" placeholder="enter your username" name="fnm" required>
+                </div>
+                <div class="field">
+                    <b>Email</b>
+                    <input type="email" class="inp" required name="email" placeholder="enter your email">
+                </div>
+                <div class="field">
+                    <b>Password</b>
+                    <input type="password" class="inp" name="pwd" required placeholder="enter password">
+                </div>
+                <div class="field">
+                    <input type="submit" class="submit-button" value="SIGN UP">
+                </div>
+            </form>
+            <div class="field">
+                <b class="signup-text">Already have an Account</b>
+                <br>
+                <a class="anc" href="/loginn" style="margin-left: 228px; color: rgb(3, 43, 3); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 700;">LOGIN</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
