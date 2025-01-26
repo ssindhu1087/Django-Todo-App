@@ -16,5 +16,5 @@ A simple Todo application built with Django, allowing users to create, update, d
 
 ## Installation
 
-1. Clone the repository: @@#f03c15 git clone https://github.com/your-username/todo-django.git
+1. Clone the repository: <code style="background-color:lightskyblue">git clone https://github.com/your-username/todo-django.git</code>
 2. 
